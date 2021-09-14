@@ -143,3 +143,41 @@ padding: 25px;
   footer img {
       height: 50px;
   }
+
+  /* ********* MEDIA QUERIES ******** */
+
+  @media screen and (max-width : 999px) {
+      #rightpart {
+          display: flex;
+      }
+      #rightpart h2 {
+          display: none;
+        }
+  }
+
+  @media screen and (max-width : 790px) {
+      h1 {
+          font-size: 3em;      
+      }
+      .elements {
+          padding: 30px 0;
+      }
+      .elements img {
+          max-width: 140px;
+          margin-top: 20px;
+      }
+      
+  }
+  @media screen and (max-width : 558px) {
+      .elements{
+          padding: 10px 0;
+          text-align: center;
+      }
+      .elements img {
+          margin-bottom: 20px;
+      }
+      nav {
+          display: none !important;
+      }
+
+  }
